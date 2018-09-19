@@ -1,7 +1,7 @@
 def starts_with_a_vowel?(word)
-  word = ["afoot",  "Excellent", "incredible",  "Absolute",  "unreal",  "Inconceivable", "octopus", "chandoo",  "Crenel", "crooked", "Flimsy", "folksy", "Dog", "Hermit", "makeshift", "Palazzi", "sixfold", "Truth"]
-  word.match(/\w+aeiou/)#.(/^\w{1}\s/)
-  true
+  if word = ^[a]
+    return true
+    end
 end
 
 #def words_starting_with_un_and_ending_with_ing(text)
